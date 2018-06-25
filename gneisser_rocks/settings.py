@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'gneissest_rocks.apps.GneissestRocksConfig'
+    'gneissest_rocks.apps.GneissestRocksConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'MDT'
+TIME_ZONE = 'America/Los_Angeles'
 
 USE_I18N = True
 
