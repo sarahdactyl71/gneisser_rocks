@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+class Rocks(models.Model):
+    image_url = models.TextField()
+    name = models.CharField(max_length=50)
+    description = TextField()
+    location = CharField(max_length=50)
